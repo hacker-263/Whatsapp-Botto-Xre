@@ -401,7 +401,7 @@ export class Message {
                 log = true
                 break
             case 'test':
-                body = 'Well...'
+                body = 'Well...Um Up'
                 log = true
                 break
         }
