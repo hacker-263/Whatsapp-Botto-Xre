@@ -37,7 +37,7 @@
         "group-invite": "❌ *[MOD]* Group Invite Link Detected! Removing..."
     },
     "warnings":{
-        "purge": "Are you sure? This command will kick everyone from thr group. Use this command again if this is what you want.",
+        "purge": "Are you sure? This command will kick everyone from the group. Use this command again if this is what you want.",
         "EIF": "This feature is disabled. If you're the host, Please provide the EIF Main endpoint in your config vars"
     },
     "error": {
