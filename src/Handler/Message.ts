@@ -115,6 +115,8 @@ export class Message {
                 case 'eval':
                     if (mod) return void eval(slicedJoinedArgs)
                     break
+                    
+                    
                 case 'join':
                     return void this.client.reply(
                         from,
