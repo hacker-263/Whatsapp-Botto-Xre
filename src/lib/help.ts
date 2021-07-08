@@ -66,6 +66,16 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}remove*
 > *${client._config.prefix}purge*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
+┃□│✎┊ *${client._config.name}*
+┃□│╭────────╯   
+┃□││❏*Hxcker_263*
+┃□││❏R3tr0_263
+┃□││❏BL4Z3_263
+╰─────────────────┈ ❁ཻུ۪۪⸙͎
+║█║▌║█║▌│║▌║▌█║
+║█║▌║█║▌│║▌║▌█║
+*_ZIM-D4RK-4RMY*
 	
 	
 	${client._config.name} Commands\n\n💡 *Prefix:* ${client._config.prefix}\n\n`
@@ -80,17 +90,4 @@ export const help = (client: Client, command?: string): string => {
     }
     return `${base}📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`\n\n'
 	
-	return `	
-	
-	┃□│✎┊ *${client._config.name}*
-┃□│╭────────╯   
-┃□││❏*Hxcker_263*
-┃□││❏R3tr0_263
-┃□││❏BL4Z3_263
-╰─────────────────┈ ❁ཻུ۪۪⸙͎
-║█║▌║█║▌│║▌║▌█║
-║█║▌║█║▌│║▌║▌█║
-*_ZIM-D4RK-4RMY*`
-	
-	`
 }
