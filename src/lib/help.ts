@@ -16,7 +16,7 @@ export const help = (client: Client, command?: string): string => {
         return responses['invalid-command-short'].replace('{C}', command)
     }
     let base = `╭────┈ ↷
-┃□│✎┊ *ZeD-Bot*
+┃□│✎┊ *👾ZeD-Bot👾*
 ┃□│╭────────╯
 ┃□││❏OWNER : @Hxcker_263
 ┃□││❏NAMA : ${client._config.name}
@@ -67,7 +67,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}purge*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 
-┃□│✎┊ *${client._config.name}*
+┃□│✎┊ *👾${client._config.name}👾*
 ┃□│╭────────╯   
 ┃□││❏*Hxcker_263*
 ┃□││❏R3tr0_263
