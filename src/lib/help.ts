@@ -75,10 +75,8 @@ export const help = (client: Client, command?: string): string => {
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎
 ║█║▌║█║▌│║▌║▌█║
 ║█║▌║█║▌│║▌║▌█║
-*_ZIM-D4RK-4RMY*
+*_ZIM-D4RK-4RMY*`
 	
-	
-	${client._config.name} Commands\n\n💡 *Prefix:* ${client._config.prefix}\n\n`
     const cmds = commands as ICommandList
     const cats = Object.keys(cmds)
     for (const cat in cmds) {
