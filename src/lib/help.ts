@@ -21,12 +21,54 @@ export const help = (client: Client, command?: string): string => {
 ┃□││❏OWNER : @Hxcker_263
 ┃□││❏NAMA : ${client._config.name}
 ┃□││❏Team : Team_263  
+┃□││❏GROUP : *${group.metadata.subject}*
 ┃□││❏PREFIX : 「 ${client._config.prefix} 」
 ╰─────────---────────┈ ❁ཻུ۪۪⸙͎	
+
+
+|-------------------------|
+─────────────────┈ ❁۪۪
+❏ *Support-Owner* 」 
+> *Folow IG Bot: @hxcker_263*
+╰─────────────────┈ ❁ཻུུ۪۪۪۪
+|-------------------------|
+
+
+─────────────────┈ ❁۪۪
+❏ *General-Commands* 」
+╰─❁۪۪
+> *${client._config.prefix}help*
+> *${client._config.prefix}admins*
+> *${client._config.prefix}everyone*
+> *${client._config.prefix}profile*
+> *${client._config.prefix}xp*
+> *${client._config.prefix}delete*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
+❏ *Media-Commands* 」
+╰─❁۪۪
+> *${client._config.prefix}play*
+> *${client._config.prefix}yts*
+> *${client._config.prefix}yta*
+> *${client._config.prefix}ytv*
+> *${client._config.prefix}spotify*
+> *${client._config.prefix}sticker*
+> *${client._config.prefix}subred*
+> *${client._config.prefix}blur*
+╰─────────────────┈ ❁ཻུ۪۪⸙͎
+
+❏ *Moderation* 」
+╰─❁۪۪
+> *${client._config.prefix}activate*
+> *${client._config.prefix}deacticate*
+> *${client._config.prefix}demote*
+> *${client._config.prefix}promote*
+> *${client._config.prefix}remove*
+> *${client._config.prefix}purge*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 	
 	
-	║█║▌║█║▌│║▌║▌█║
-	${client._config.name}║█║▌║█║▌│║▌║▌█║  Commands\n\n💡 *Prefix:* ${client._config.prefix}\n\n`
+	${client._config.name} Commands\n\n💡 *Prefix:* ${client._config.prefix}\n\n`
     const cmds = commands as ICommandList
     const cats = Object.keys(cmds)
     for (const cat in cmds) {
@@ -40,7 +82,7 @@ export const help = (client: Client, command?: string): string => {
 	
 	return `	
 	
-	┃□│✎┊ *Team-263-Bot*
+	┃□│✎┊ *${client._config.name}*
 ┃□│╭────────╯   
 ┃□││❏*Hxcker_263*
 ┃□││❏R3tr0_263
@@ -49,4 +91,6 @@ export const help = (client: Client, command?: string): string => {
 ║█║▌║█║▌│║▌║▌█║
 ║█║▌║█║▌│║▌║▌█║
 *_ZIM-D4RK-4RMY*`
+	
+	`
 }
