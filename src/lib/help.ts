@@ -21,7 +21,6 @@ export const help = (client: Client, command?: string): string => {
 ┃□││❏OWNER : @Hxcker_263
 ┃□││❏NAMA : ${client._config.name}
 ┃□││❏Team : Team_263  
-┃□││❏GROUP : *${group.metadata.subject}*
 ┃□││❏PREFIX : 「 ${client._config.prefix} 」
 ╰─────────---────────┈ ❁ཻུ۪۪⸙͎	
 	
@@ -50,6 +49,4 @@ export const help = (client: Client, command?: string): string => {
 ║█║▌║█║▌│║▌║▌█║
 ║█║▌║█║▌│║▌║▌█║
 *_ZIM-D4RK-4RMY*`
-	
-	`
 }
