@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://ibb.co/16fjwFg" alt="WhatsApp-Botto-Xre" border="0">
+<img src="https://github.com/hacker-263/Whatsapp-Botto-Xre/blob/master/bg.jpg" alt="WhatsApp-Botto-Xre" border="0">
 
 # **WhatsApp-Botto-xRe**
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSomnathDas%2FWhatsapp-Botto-Xre.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSomnathDas%2FWhatsapp-Botto-Xre?ref=badge_shield)
