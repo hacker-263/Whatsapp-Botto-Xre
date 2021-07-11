@@ -17,26 +17,28 @@ export const help = (client: Client, command?: string): string => {
     }
 
     return `╭────┈ ↷
-┃□│✎┊ *ZeD-Bot*
+┃□│✎┊ *👾ZeD-Bot👾*
 ┃□│╭────────╯
-┃□││❏OWNER : @Hxcker_263
-┃□││❏NAME : ${client._config.name}
-┃□││❏Team : Team_263  
-┃□││❏GROUP : *${group.metadata.subject}*
-┃□││❏PREFIX : 「 ${client._config.prefix} 」
+┃□││❏OWNER   : @Hxcker_263
+┃□││❏OWNER # : https://wa.me/+263718635356
+┃□││❏NAME    : ${client._config.name}
+┃□││❏Team    : Team_263  
+┃□││❏GROUP   : *${group.metadata.subject}*
+┃□││❏PREFIX  : 「 ${client._config.prefix} 」
 ╰─────────---────────┈ ❁ཻུ۪۪⸙͎	
 
 
 |-------------------------|
 ─────────────────┈ ❁۪۪
-❏ *Support-Owner* 」 
-> *Folow Bot-Owner: @hxcker_263*
+❏ *👑Support-Owner👑* 」
+─ ↷
+> Folow Bot-Owner: *@hxcker_263*
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 |-------------------------|
 
 
 ─────────────────┈ ❁۪۪
-❏ *General-Commands* 」
+❏ *📌General-Commands📌* 」
 ╰─❁۪۪
 > *${client._config.prefix}help*
 > *${client._config.prefix}info*
@@ -50,9 +52,10 @@ export const help = (client: Client, command?: string): string => {
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 
 ─────────────────┈ ❁۪۪
-❏ *Media-Commands* 」
+❏ *🎬Media-Commands🎬* 」
 ╰─❁۪۪
 > *${client._config.prefix}lyrics*
+> *${client._config.prefix}wallpaper*
 > *${client._config.prefix}yts*
 > *${client._config.prefix}yta*
 > *${client._config.prefix}ytv*
@@ -63,9 +66,8 @@ export const help = (client: Client, command?: string): string => {
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎
 
 ─────────────────┈ ❁۪۪
-❏ *Media-Commands* 」
+❏ *👻Anime👻* 」
 ╰─❁۪۪
-> *${client._config.prefix}wallpaper*
 > *${client._config.prefix}anime*
 > *${client._config.prefix}manga*
 > *${client._config.prefix}aid*
@@ -74,14 +76,28 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}character*
 
 ─────────────────┈ ❁۪۪
-❏ *Group-Admins* 」
+❏ *👑Group-Admins👑* 」
 ╰─❁۪۪
 > *${client._config.prefix}activate*
-> *${client._config.prefix}deacticate*
+> *${client._config.prefix}deactivate*
+> *${client._config.prefix}close*
+> *${client._config.prefix}open*
 > *${client._config.prefix}demote*
 > *${client._config.prefix}promote*
 > *${client._config.prefix}remove*
+> *${client._config.prefix}register*
+> *${client._config.prefix}unregister*
+> *${client._config.prefix}purge*
 > *${client._config.prefix}everyone*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
+─────────────────┈ ❁۪۪
+❏ *🎭Fun🎭* 」
+╰─❁۪۪
+> *${client._config.prefix}slap*
+> *${client._config.prefix}punch*
+> *${client._config.prefix}pat*
+ *${client._config.prefix}everyone*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 
 ─────────────────┈ ❁۪۪──
@@ -95,5 +111,7 @@ export const help = (client: Client, command?: string): string => {
 ║█║▌║█║▌│║▌║▌█║
 *ZIM-D4RK-4RMY*
 
-\n\n📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`
+\n\n📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_ \n\n Hope you have a great day!
+
+🎩🐺✌....Peace`
 }
