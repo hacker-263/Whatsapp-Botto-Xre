@@ -75,7 +75,7 @@ export const help = (client: Client, command?: string): string => {
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎
 ║█║▌║█║▌│║▌║▌█║
 ║█║▌║█║▌│║▌║▌█║
-*_ZIM-D4RK-4RMY_*`\n\n'
+*ZIM-D4RK-4RMY* \n\n'
     }
-    return `${base}📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`
+    return `📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`
 }
