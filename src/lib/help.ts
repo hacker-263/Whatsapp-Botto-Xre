@@ -16,5 +16,84 @@ export const help = (client: Client, command?: string): string => {
         return responses['invalid-command-short'].replace('{C}', command)
     }
 
-    return `📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`
+    return `╭────┈ ↷
+┃□│✎┊ *ZeD-Bot*
+┃□│╭────────╯
+┃□││❏OWNER : @Hxcker_263
+┃□││❏NAME : ${client._config.name}
+┃□││❏Team : Team_263  
+┃□││❏GROUP : *${group.metadata.subject}*
+┃□││❏PREFIX : 「 ${client._config.prefix} 」
+╰─────────---────────┈ ❁ཻུ۪۪⸙͎	
+
+
+|-------------------------|
+─────────────────┈ ❁۪۪
+❏ *Support-Owner* 」 
+> *Folow Bot-Owner: @hxcker_263*
+╰─────────────────┈ ❁ཻུུ۪۪۪۪
+|-------------------------|
+
+
+─────────────────┈ ❁۪۪
+❏ *General-Commands* 」
+╰─❁۪۪
+> *${client._config.prefix}help*
+> *${client._config.prefix}info*
+> *${client._config.prefix}everyone*
+> *${client._config.prefix}profile*
+> *${client._config.prefix}issues*
+> *${client._config.prefix}delete*
+> *${client._config.prefix}commits*
+> *${client._config.prefix}profile*
+> *${client._config.prefix}group*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
+─────────────────┈ ❁۪۪
+❏ *Media-Commands* 」
+╰─❁۪۪
+> *${client._config.prefix}lyrics*
+> *${client._config.prefix}yts*
+> *${client._config.prefix}yta*
+> *${client._config.prefix}ytv*
+> *${client._config.prefix}gify*
+> *${client._config.prefix}sticker*
+> *${client._config.prefix}subred*
+> *${client._config.prefix}img*
+╰─────────────────┈ ❁ཻུ۪۪⸙͎
+
+─────────────────┈ ❁۪۪
+❏ *Media-Commands* 」
+╰─❁۪۪
+> *${client._config.prefix}wallpaper*
+> *${client._config.prefix}anime*
+> *${client._config.prefix}manga*
+> *${client._config.prefix}aid*
+> *${client._config.prefix}mid*
+> *${client._config.prefix}chid*
+> *${client._config.prefix}character*
+
+─────────────────┈ ❁۪۪
+❏ *Group-Admins* 」
+╰─❁۪۪
+> *${client._config.prefix}activate*
+> *${client._config.prefix}deacticate*
+> *${client._config.prefix}demote*
+> *${client._config.prefix}promote*
+> *${client._config.prefix}remove*
+> *${client._config.prefix}everyone*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
+─────────────────┈ ❁۪۪──
+┃□│✎┊ *${client._config.name}*
+┃□│╭────────╯   
+┃□││❏*Hxcker_263*
+┃□││❏R3tr0_263
+┃□││❏BL4Z3_263
+╰─────────────────┈ ❁ཻུ۪۪⸙͎
+║█║▌║█║▌│║▌║▌█║
+║█║▌║█║▌│║▌║▌█║
+*ZIM-D4RK-4RMY*
+
+\n\n📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`
 }
