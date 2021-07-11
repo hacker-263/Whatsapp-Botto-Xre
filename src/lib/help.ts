@@ -16,7 +16,7 @@ export const help = (client: Client, command?: string): string => {
         return responses['invalid-command-short'].replace('{C}', command)
     }
 
-    return `╭────┈ ↷
+    return `.╭────┈ ↷
 ┃□│✎┊ *👾ZeD-Bot👾*
 ┃□│╭────────╯
 ┃□││❏OWNER   : @Hxcker_263
