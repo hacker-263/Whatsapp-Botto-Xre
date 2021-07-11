@@ -19,7 +19,7 @@ export const help = (client: Client, command?: string): string => {
 ┃□│✎┊ *ZeD-Bot*
 ┃□│╭────────╯
 ┃□││❏OWNER : @Hxcker_263
-┃□││❏NAMA : ${client._config.name}
+┃□││❏NAME : ${client._config.name}
 ┃□││❏Team : Team_263  
 ┃□││❏GROUP : *${group.metadata.subject}*
 ┃□││❏PREFIX : 「 ${client._config.prefix} 」
@@ -29,7 +29,7 @@ export const help = (client: Client, command?: string): string => {
 |-------------------------|
 ─────────────────┈ ❁۪۪
 ❏ *Support-Owner* 」 
-> *Folow IG Bot: @hxcker_263*
+> *Folow Bot-Owner: @hxcker_263*
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 |-------------------------|
 
@@ -75,8 +75,15 @@ export const help = (client: Client, command?: string): string => {
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎
 ║█║▌║█║▌│║▌║▌█║
 ║█║▌║█║▌│║▌║▌█║
-*_ZIM-D4RK-4RMY*`'```\n\n'
+*_ZIM-D4RK-4RMY_*\n\n`
+    const cmds = commands as ICommandList
+    const cats = Object.keys(cmds)
+    for (const cat in cmds) {
+        base += `*${Utils.capitalize(cat)}* ${Utils.emojis[cats.indexOf(cat)]}\n\`\`\``
+        cmds[cat].forEach((cmd) => {
+            base += `${cmd.command}${cmds[cat][cmds[cat].length - 1] === cmd ? '' : ', '}`
+        })
+        base += '```\n\n'
     }
-    return `${base}📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`\n\n'
-	
+    return `${base}📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_`
 }
