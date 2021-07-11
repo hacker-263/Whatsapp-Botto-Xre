@@ -100,6 +100,16 @@ export const help = (client: Client, command?: string): string => {
  *${client._config.prefix}everyone*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 
+─────────────────┈ ❁۪۪
+❏ *👑Bot-Owner👑* 」
+╰─❁۪۪
+> *${client._config.prefix}clearall*
+> *${client._config.prefix}ban*
+> *${client._config.prefix}unban*
+> *${client._config.prefix}bc*
+> *${client._config.prefix}eval*
+╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
+
 ─────────────────┈ ❁۪۪──
 ┃□│✎┊ *${client._config.name}*
 ┃□│╭────────╯   
