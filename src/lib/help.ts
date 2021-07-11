@@ -17,7 +17,7 @@ export const help = (client: Client, command?: string): string => {
     }
 
        return `╭────┈ ↷
-┃□│✎┊ *👾ZeD-Bot👾*
+┃□│✎┊ $*{client._config.name}*
 ┃□│╭────────╯
 ┃□││❏OWNER   : *@Hxcker_263*
 ┃□││❏OWNER # : *wa.me/+263718635356*
