@@ -26,13 +26,13 @@ export const help = (client: Client, command?: string): string => {
 ┃□││❏Team    : *Team_Anonymous_263*  
 ┃□││❏PREFIX  : 「 ${client._config.prefix} 」
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎	
-\n
+
 ─────────────────┈ ❁۪۪
 ❏ *👑Support-Owner👑* 」
 ─ ↷
 > Folow Bot-Owner: *@hxcker_263*
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
-\n
+
 ─────────────────┈ ❁۪۪
 ❏ *📌General-Commands📌* 」
 ╰─❁۪۪
@@ -46,7 +46,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}profile*
 > *${client._config.prefix}group*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
-\n
+
 ─────────────────┈ ❁۪۪
 ❏ *🎬Media-Commands🎬* 」
 ╰─❁۪۪
@@ -60,7 +60,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}subred*
 > *${client._config.prefix}img*
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎
-\n
+
 ─────────────────┈ ❁۪۪
 ❏ *👻Anime👻* 」
 ╰─❁۪۪
@@ -71,7 +71,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}chid*
 > *${client._config.prefix}character*
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎
-\n
+
 ─────────────────┈ ❁۪۪
 ❏ *👑Group-Admins👑* 」
 ╰─❁۪۪
@@ -87,7 +87,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}purge*
 > *${client._config.prefix}everyone*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
-\n
+
 ─────────────────┈ ❁۪۪
 ❏ *🎭Fun🎭* 」
 ╰─❁۪۪
@@ -96,7 +96,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}pat*
 > *${client._config.prefix}everyone*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
-\n
+
 ─────────────────┈ ❁۪۪
 ❏ *👑Bot-Owner👑* 」
 ╰─❁۪۪
@@ -106,7 +106,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}bc*
 > *${client._config.prefix}eval*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
-\n
+
 ─────────────────┈ ❁۪۪──
 ┃□│✎┊ *${client._config.name}*
 ┃□│╭────────╯   
@@ -119,9 +119,7 @@ export const help = (client: Client, command?: string): string => {
 ---ZIM-D4RK-4RMY---
 \n📚 Use ${client._config.prefix}help <command_name> to view the full info. \n🔖 _Eg: ${client._config.prefix}help promote_
 
-
 Hope you have a great day! \n
-
 
 🎩🐺✌....Peace`
 }
