@@ -21,7 +21,6 @@ export const help = (client: Client, command?: string): string => {
 ┃□│╭────────╯
 ┃□││❏OWNER   : *@Hxcker_263*
 ┃□││❏OWNER # : *wa.me/+263718635356*
-┃□││❏GROUP   : *${group.metadata.subject}*
 ┃□││❏NAME    : $*{client._config.name}*
 ┃□││❏Team    : *Team_Anonymous_263*  
 ┃□││❏PREFIX  : 「 ${client._config.prefix} 」
@@ -30,7 +29,7 @@ export const help = (client: Client, command?: string): string => {
 ─────────────────┈ ❁۪۪
 ❏ *👑Support-Owner👑* 」
 ─ ↷
-> Folow Bot-Owner: *@hxcker_263*
+> Folow Bot-Owner On-IG: *@hxcker_263*
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 
 ─────────────────┈ ❁۪۪
