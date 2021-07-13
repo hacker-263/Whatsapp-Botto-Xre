@@ -17,11 +17,11 @@ export const help = (client: Client, command?: string): string => {
     }
 
        return `╭────┈ ↷
-┃□│✎┊ $*{client._config.name}*
+┃□│✎┊ *${client._config.name}*
 ┃□│╭────────╯
 ┃□││❏OWNER   : *@Hxcker_263*
 ┃□││❏OWNER # : *wa.me/+263718635356*
-┃□││❏NAME    : $*{client._config.name}*
+┃□││❏NAME    : *${client._config.name}*
 ┃□││❏Team    : *Team_Anonymous_263*  
 ┃□││❏PREFIX  : 「 ${client._config.prefix} 」
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎	
@@ -93,7 +93,7 @@ export const help = (client: Client, command?: string): string => {
 > *${client._config.prefix}slap*
 > *${client._config.prefix}punch*
 > *${client._config.prefix}pat*
-> *${client._config.prefix}everyone*
+> *${client._config.prefix}kiss*
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 
 ─────────────────┈ ❁۪۪
