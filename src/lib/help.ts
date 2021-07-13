@@ -17,11 +17,12 @@ export const help = (client: Client, command?: string): string => {
     }
 
        return `╭────┈ ↷
-┃□│✎┊ *${client._config.name}*
+┃□│✎┊ 「 *👾ZeD-Bot👾* 」
 ┃□│╭────────╯
 ┃□││❏OWNER   : *@Hxcker_263*
 ┃□││❏OWNER # : *wa.me/+263718635356*
 ┃□││❏NAME    : *${client._config.name}*
+┃□││❏GROUP   : *${group.metadata.subject}*
 ┃□││❏Team    : *Team_Anonymous_263*  
 ┃□││❏PREFIX  : 「 ${client._config.prefix} 」
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎	
@@ -107,7 +108,7 @@ export const help = (client: Client, command?: string): string => {
 ╰─────────────────┈ ❁ཻཻུུ۪۪۪۪⸙͎
 
 ─────────────────┈ ❁۪۪──
-┃□│✎┊ *${client._config.name}*
+┃□│✎┊ *「👾ZeD-Bot👾」*
 ┃□│╭────────╯   
 ┃□││❏*Hxcker_263*
 ┃□││❏R3tr0_263
