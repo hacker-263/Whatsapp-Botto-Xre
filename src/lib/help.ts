@@ -22,7 +22,6 @@ export const help = (client: Client, command?: string): string => {
 ┃□││❏OWNER   : *@Hxcker_263*
 ┃□││❏OWNER # : *wa.me/+263718635356*
 ┃□││❏NAME    : *${client._config.name}*
-┃□││❏GROUP   : *${group.metadata.subject}*
 ┃□││❏Team    : *Team_Anonymous_263*  
 ┃□││❏PREFIX  : 「 ${client._config.prefix} 」
 ╰─────────────────┈ ❁ཻུ۪۪⸙͎	
@@ -31,6 +30,8 @@ export const help = (client: Client, command?: string): string => {
 ❏ *👑Support-Owner👑* 」
 ─ ↷
 > Folow Bot-Owner On-IG: *@hxcker_263*
+> Follow Creator Repo  : https://github.com/hacker-263
+> Official-Bot-Group   : https://chat.whatsapp.com/CXLTAHNARopGjIIYRBjpWQ
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 
 ─────────────────┈ ❁۪۪
