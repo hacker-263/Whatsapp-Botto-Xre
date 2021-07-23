@@ -222,6 +222,9 @@ export class Message {
                     return void this.client.reply(from, await getGifReply(slicedJoinedArgs), M)
                 case 'slap':
                 case 'pat':
+                case 'kiss':
+                case 'kick':
+                case 'bite':    
                 case 'punch':
                     return void this.client.reply(
                         from,
