@@ -31,7 +31,7 @@ export const help = (client: Client, command?: string): string => {
 ─ ↷
 > Folow Bot-Owner On-IG: *@hxcker_263*
 > Follow Creator Repo  : https://github.com/hacker-263
-> Official-Bot-Group   : https://chat.whatsapp.com/CXLTAHNARopGjIIYRBjpWQ
+> Official-Bot-Group   : 
 ╰─────────────────┈ ❁ཻུུ۪۪۪۪
 
 ─────────────────┈ ❁۪۪
